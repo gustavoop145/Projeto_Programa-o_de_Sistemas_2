@@ -1,11 +1,11 @@
 package com.projetoestagio.portalestagiosapi.model;
 
-import jakarta.persistence.*;
+import jakarta.persistence.Entity;
 import lombok.Data;
 
 @Data
 @Entity
-public class Empresa {
+public class Empresa extends Usuario {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
