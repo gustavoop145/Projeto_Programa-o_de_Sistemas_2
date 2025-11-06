@@ -1,7 +1,13 @@
-export const api = {
-    async getVagas() {
-        const res = await fetch("http://localhost:8080/api/vagas");
-        if (!res.ok) throw new Error ("Erro ao buscar vagas");
-        return res.json();
-    }
+export const API_URL = "http://localhost:8080";
+
+export async function apiRequest(endpoint, method = "GET", body = null) {
+  const options = { method, headers: { "Content-Type": "application/json" } };
+
+  if (body) options.body = JSON.stringify(body);
+
+  const response = await fetch(`${API_URL}${endpoint}`, options);
+
+  if (!response.ok) throw new Error("Erro na requisição");
+
+  return response.json();
 }

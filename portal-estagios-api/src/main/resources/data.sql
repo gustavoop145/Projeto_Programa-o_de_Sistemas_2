@@ -1,1 +1,6 @@
-insert into Empresa (id, nome,cnpj,email,telefone,endereco,area_Atuacao) values(1, 'Joao','132465789','nome@nome.com','123456','rua m','area1')
+insert into usuario (id, email, senha, perfil)
+values (1, 'nome@nome.com', '123456', 'EMPRESA');
+
+
+insert into empresa (id, nome, cnpj, telefone, endereco, area_atuacao)
+values (1, 'Joao', '132465789', '123456', 'rua m', 'area1');

@@ -3,7 +3,7 @@ package com.projetoestagio.portalestagiosapi.controller;
 import com.projetoestagio.portalestagiosapi.model.Empresa;
 import com.projetoestagio.portalestagiosapi.model.Inscricao;
 import com.projetoestagio.portalestagiosapi.service.AuthService;
-import com.projetoestagiosapi.repository.InscricaoRepository;
+import com.projetoestagio.portalestagiosapi.repository.InscricaoRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
