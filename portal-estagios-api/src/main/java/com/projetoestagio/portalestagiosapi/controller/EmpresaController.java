@@ -21,7 +21,7 @@ public class EmpresaController {
     }
 
     @PostMapping
-    public Empresa cadastrar(@RequestBody Empresa empresa) {
+    public Empresa cadastrar(@RequestBody() Empresa empresa) {
         return repository.save(empresa);
     }
 
