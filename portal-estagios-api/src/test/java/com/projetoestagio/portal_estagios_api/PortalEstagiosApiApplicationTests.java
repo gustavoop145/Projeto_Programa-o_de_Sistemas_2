@@ -1,4 +1,4 @@
-package com.projetoestagio.portal_estagios_api;
+package com.projetoestagio.portalestagiosapi;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
