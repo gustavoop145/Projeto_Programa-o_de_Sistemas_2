@@ -1,3 +1,20 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 insert into usuario (id, email, senha, perfil)
 values (1, 'nome@nome.com', '123456', 'EMPRESA');
 
